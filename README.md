@@ -9,7 +9,7 @@ You can install the picons either on an external storage device (e.g., USB drive
 You can download the `MPRO.srp-800X450.light.transparant-picon.tar.xz` file directly from this repository using the `wget` command. Connect to your Enigma2 device via Telnet and run the following command:
 
 ```
-wget https://github.com/MOVICAMPRO/picons/blob/main/MPRO.srp-800X450.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz
+wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz
 ```
 ### Option 1: Install on External Storage (```/media/hdd/```):
 
