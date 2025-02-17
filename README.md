@@ -44,6 +44,6 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   + Picons are used to display channel logos on your Enigma2 device. Ensure that your skin supports picons for them to appear correctly.
 
 
+___________________________________________________________________________________________________________
 
-
-__cheers :)__
+ __ENJOY...__
