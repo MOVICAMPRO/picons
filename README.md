@@ -16,25 +16,32 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
 **1. Extract the File:**
 
   ```
-  tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz /media/hdd/
+  tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /media/hdd/
   ```
 **2. Verify Installation:**
 
-  + After extraction, ensure that the picon folder is created in ```/media/hdd/```.
+  + After extraction, ensure that the picon folder is created in ```/media/hdd/``` if already exist don't worry :).
 
-**3. Restart your Enigma2 device or GUI to apply the changes.**
+**3. symlink MPRO picons:**
+
+  ```
+  ln -s /media/hdd/picon/MPRO/* /media/hdd/picon/
+  ```
 ### Option 2: Install Internally (```/usr/share/enigma2/```):
 
 **1. Extract the File:**
 
   ```
-  tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz /usr/share/enigma2/
+  tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /usr/share/enigma2/
   ```
 **2.Verify Installation:**
   + After extraction, ensure that the picon folder is created in ```/usr/share/enigma2/```.
 
-**3. Restart your Enigma2 device or GUI to apply the changes.**
+**3. symlink MPRO picons:**
 
+  ```
+  ln -s /usr/share/enigma2/picon/MPRO/* /usr/share/enigma2/picon/
+  ```
 ## Notes
   + If the picon folder already exists in the target directory, the extraction process will overwrite the existing files. Make sure to back up any important data before proceeding.
 
