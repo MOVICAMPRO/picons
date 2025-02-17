@@ -13,6 +13,8 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
 ```
 ### Option 1: Install on External Storage (```/media/hdd/```):
 
+- NOTE: if u have ```/media/usb/``` or ```/media/mmc/``` etc... make it instead of ```/media/hdd/```
+
 **1. Extract the File:**
 
   ```
