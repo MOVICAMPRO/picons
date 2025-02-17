@@ -39,8 +39,7 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   ln -s /usr/share/enigma2/picon/MPRO/* /usr/share/enigma2/picon/
   ```
-## Notes
-  + If the picon folder already exists in the target directory, the extraction process will overwrite the existing files. Make sure to back up any important data before proceeding.
+### Notes
 
   + Picons are used to display channel logos on your Enigma2 device. Ensure that your skin supports picons for them to appear correctly.
 
