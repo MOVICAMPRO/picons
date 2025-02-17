@@ -20,11 +20,8 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /media/hdd/
   ```
-**2. Verify Installation:**
 
-  + After extraction, ensure that the picon folder is created in ```/media/hdd/``` if already exist don't worry :).
-
-**3. symlink MPRO picons:**
+**2. symlink MPRO picons:**
 
   ```
   ln -s /media/hdd/picon/MPRO/* /media/hdd/picon/
@@ -36,10 +33,8 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /usr/share/enigma2/
   ```
-**2.Verify Installation:**
-  + After extraction, ensure that the picon folder is created in ```/usr/share/enigma2/```.
 
-**3. symlink MPRO picons:**
+**2. symlink MPRO picons:**
 
   ```
   ln -s /usr/share/enigma2/picon/MPRO/* /usr/share/enigma2/picon/
