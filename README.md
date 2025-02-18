@@ -30,6 +30,11 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   ln -s /media/hdd/picon/MPRO/* /media/hdd/picon/
   ```
+
+ + if u dont want symlink put this command:
+   ```
+   mv /media/hdd/picon/MPRO/* /media/hdd/picon/ && rm -r /media/hdd/picon/MPRO
+   ```
 ### Option 2: Install Internally (```/usr/share/enigma2/```):
 
 **1. Extract the File:**
@@ -43,6 +48,10 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   ln -s /usr/share/enigma2/picon/MPRO/* /usr/share/enigma2/picon/
   ```
+ + if u dont want symlink put this command:
+   ```
+   mv /usr/share/enigma2/MPRO/* /usr/share/enigma2/picon/ && rm -r /usr/share/enigma2/MPRO
+   ```
 ### Notes
 
   + Picons are used to display channel logos on your Enigma2 device. Ensure that your skin supports picons for them to appear correctly.
