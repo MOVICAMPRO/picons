@@ -4,10 +4,6 @@ This repository contains the ```MPRO.srp-800X450.light.transparant-picon.tar.xz`
 
 ## Installation Instructions:
   - You can install the picons either on an external storage device (e.g., USB drive) or internally on your Enigma2 device. Follow the steps below based on your preferred installation path.
-  - this is Service Reference Picon make sure that references are updated by puting this command via talnet first :
-   ```
-  wget  www.xdpro.eu/xepg/xepg_mpro_v1.sh  --no-check-certificate -O - | /bin/sh
-   ```
 
 ## Download the File:
 You can download the `MPRO.srp-800X450.light.transparant-picon.tar.xz` file directly from this repository using the `wget` command. Connect to your Enigma2 device via Telnet and run the following command:
