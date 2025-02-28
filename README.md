@@ -11,6 +11,10 @@ You can download the `MPRO.srp-800X450.light.transparant-picon.tar.xz` file dire
 ```
 wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz
 ```
+- for 400x240:
+  ```
+  wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-400x240.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-400x240.light.transparant-picon.tar.xz
+  ```
 ### Option 1: Install on External Storage (```/media/hdd/```):
 
 - NOTE: if u have ```/media/usb/``` or ```/media/mmc/``` etc... make it instead of ```/media/hdd/```
@@ -20,6 +24,10 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /media/hdd/
   ```
+- for 400x240:
+    ```
+  tar -xvf /tmp/MPRO.srp-400x240.light.transparant-picon.tar.xz -C /media/hdd/
+    ```
 
 **2. symlink MPRO picons:**
 
@@ -38,6 +46,10 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
   ```
   tar -xvf /tmp/MPRO.srp-800X450.light.transparant-picon.tar.xz -C /usr/share/enigma2/
   ```
+- for 400x240:
+    ```
+    tar -xvf /tmp/MPRO.srp-400X240.light.transparant-picon.tar.xz -C /usr/share/enigma2/
+    ```
 
 **2. symlink MPRO picons:**
 
