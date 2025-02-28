@@ -13,7 +13,7 @@ wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-800X450.light.transp
 ```
 - for 400x240:
   ```
-  wget [https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-400x240.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-400x240.light.transparant-picon.tar.xz
+  wget https://github.com/MOVICAMPRO/picons/raw/main/MPRO.srp-400x240.light.transparant-picon.tar.xz -O /tmp/MPRO.srp-400x240.light.transparant-picon.tar.xz
   ```
 ### Option 1: Install on External Storage (```/media/hdd/```):
 
