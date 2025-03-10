@@ -4,7 +4,7 @@ This repository contains the ```MPRO.srp-800X450.light.transparant-picon.tar.xz`
 
 ## Installation Instructions:
   - You can install the picons either on an external storage device (e.g., USB drive) or internally on your Enigma2 device. Follow the steps below based on your preferred installation path.
-- `NOTE:` if u uploaded MPRO before... u need to remove the old one on follows commands:
+- `NOTE:` new refs has been updated if your picons gone after the update u can remove the old one on follows commands:
 + on `External Storage` ```/media/hdd/```or```/media/usb/``` or ```/media/mmc/``` etc...:
   ```
    rm -r /media/hdd/picon/MPRO
